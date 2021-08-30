@@ -10,13 +10,21 @@ import SwiftUI
         //MARK: - Tools
 struct ToolsView: View {
         //MARK: - PROPERTIES
+
     
     var body: some View {
         
         // MARK: - VStack я просто оставил его здесь, не добавил в навигейшен
         VStack(alignment: .center, spacing: 0) {
+            
         // MARK: - FORM
             Form {
+                
+                Section(header: Text("Profile")){
+                    ProfileView()
+                }
+                .padding(.vertical, 3)
+
                 Section(header: Text("Follow us on social media")) {
                     FormRowLinkView(icon: "globe", color: Color.pink, text: "Website", link: "https://rentel.me/")
                     FormRowLinkView(icon: "textformat.abc.dottedunderline", color: Color.blue, text: "Twitter", link: "https://twitter.com/RentelMe/")

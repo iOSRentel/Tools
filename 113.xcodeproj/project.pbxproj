@@ -14,6 +14,8 @@
 		66A49AB626DC243600587F54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A49AB526DC243600587F54 /* ContentView.swift */; };
 		66A49AB826DC30D400587F54 /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A49AB726DC30D400587F54 /* FormRowStaticView.swift */; };
 		66A49ABA26DC37A300587F54 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A49AB926DC37A300587F54 /* FormRowLinkView.swift */; };
+		66A49ABC26DC4EF300587F54 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A49ABB26DC4EF300587F54 /* ProfileView.swift */; };
+		66A49AC026DC55E400587F54 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A49ABF26DC55E400587F54 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		66A49AB526DC243600587F54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66A49AB726DC30D400587F54 /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
 		66A49AB926DC37A300587F54 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		66A49ABB26DC4EF300587F54 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		66A49ABF26DC55E400587F54 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +68,10 @@
 				66A49AAD26DC15D100587F54 /* Info.plist */,
 				66A49AAA26DC15D100587F54 /* Preview Content */,
 				66A49AB326DC23FB00587F54 /* DashboardView.swift */,
+				66A49ABB26DC4EF300587F54 /* ProfileView.swift */,
 				66A49AB726DC30D400587F54 /* FormRowStaticView.swift */,
 				66A49AB926DC37A300587F54 /* FormRowLinkView.swift */,
+				66A49ABF26DC55E400587F54 /* DetailView.swift */,
 			);
 			path = 113;
 			sourceTree = "<group>";
@@ -150,7 +156,9 @@
 				66A49ABA26DC37A300587F54 /* FormRowLinkView.swift in Sources */,
 				66A49AB426DC23FB00587F54 /* DashboardView.swift in Sources */,
 				66A49AB826DC30D400587F54 /* FormRowStaticView.swift in Sources */,
+				66A49AC026DC55E400587F54 /* DetailView.swift in Sources */,
 				66A49AB626DC243600587F54 /* ContentView.swift in Sources */,
+				66A49ABC26DC4EF300587F54 /* ProfileView.swift in Sources */,
 				66A49AA526DC15D000587F54 /* _13App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
