@@ -32,13 +32,3 @@ struct FormRowStaticView: View {
         }
     }
 }
-
-
-// MARK: - PREWIEW
-struct FormRowStaticView_Previews: PreviewProvider {
-    static var previews: some View {
-        FormRowStaticView(icon: "gear", firstText: "Application", secondText: "RENTEL POS")
-            .previewLayout(.fixed(width: 375, height: 60))
-            .padding()
-    }
-}

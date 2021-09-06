@@ -47,11 +47,3 @@ struct FormRowLinkView: View {
             }
         }
     }
-
-
-// MARK: - PREVIEW
-struct FormRowLinkView_Previews: PreviewProvider {
-    static var previews: some View {
-        FormRowLinkView(icon: "globe", color: Color.pink, text: "Website", link: "https://rentel.me")
-    }
-}

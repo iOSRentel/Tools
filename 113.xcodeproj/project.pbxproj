@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6676D78326E6BF0700A87849 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6676D78226E6BF0700A87849 /* ToolsView.swift */; };
+		6676D78726E6BFB200A87849 /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6676D78626E6BFB200A87849 /* OrdersView.swift */; };
+		6676D78A26E6C01500A87849 /* POSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6676D78926E6C01500A87849 /* POSView.swift */; };
 		66A49AA526DC15D000587F54 /* _13App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A49AA426DC15D000587F54 /* _13App.swift */; };
 		66A49AA926DC15D100587F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A49AA826DC15D100587F54 /* Assets.xcassets */; };
 		66A49AAC26DC15D100587F54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A49AAB26DC15D100587F54 /* Preview Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6676D78226E6BF0700A87849 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		6676D78626E6BFB200A87849 /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		6676D78926E6C01500A87849 /* POSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSView.swift; sourceTree = "<group>"; };
 		66A49AA126DC15D000587F54 /* 113.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 113.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A49AA426DC15D000587F54 /* _13App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _13App.swift; sourceTree = "<group>"; };
 		66A49AA826DC15D100587F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +49,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6676D78426E6BF7400A87849 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6676D78226E6BF0700A87849 /* ToolsView.swift */,
+				66A49ABB26DC4EF300587F54 /* ProfileView.swift */,
+				66A49AB726DC30D400587F54 /* FormRowStaticView.swift */,
+				66A49AB926DC37A300587F54 /* FormRowLinkView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6676D78526E6BF9D00A87849 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				6676D78626E6BFB200A87849 /* OrdersView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		6676D78826E6C00600A87849 /* POS */ = {
+			isa = PBXGroup;
+			children = (
+				6676D78926E6C01500A87849 /* POSView.swift */,
+			);
+			path = POS;
+			sourceTree = "<group>";
+		};
 		66A49A9826DC15D000587F54 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +97,13 @@
 			children = (
 				66A49AA426DC15D000587F54 /* _13App.swift */,
 				66A49AB526DC243600587F54 /* ContentView.swift */,
+				6676D78426E6BF7400A87849 /* Tools */,
+				6676D78526E6BF9D00A87849 /* Orders */,
+				6676D78826E6C00600A87849 /* POS */,
 				66A49AA826DC15D100587F54 /* Assets.xcassets */,
 				66A49AAD26DC15D100587F54 /* Info.plist */,
 				66A49AAA26DC15D100587F54 /* Preview Content */,
 				66A49AB326DC23FB00587F54 /* DashboardView.swift */,
-				66A49ABB26DC4EF300587F54 /* ProfileView.swift */,
-				66A49AB726DC30D400587F54 /* FormRowStaticView.swift */,
-				66A49AB926DC37A300587F54 /* FormRowLinkView.swift */,
 				66A49ABF26DC55E400587F54 /* DetailView.swift */,
 			);
 			path = 113;
@@ -159,7 +192,10 @@
 				66A49AC026DC55E400587F54 /* DetailView.swift in Sources */,
 				66A49AB626DC243600587F54 /* ContentView.swift in Sources */,
 				66A49ABC26DC4EF300587F54 /* ProfileView.swift in Sources */,
+				6676D78326E6BF0700A87849 /* ToolsView.swift in Sources */,
 				66A49AA526DC15D000587F54 /* _13App.swift in Sources */,
+				6676D78726E6BFB200A87849 /* OrdersView.swift in Sources */,
+				6676D78A26E6C01500A87849 /* POSView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
